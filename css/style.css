@@ -180,3 +180,35 @@ img{
 }
 
 /* fine play-bar */
+
+
+
+
+
+
+
+
+
+
+/* 
+    responsive
+*/
+
+
+/* dispositivo M */
+
+@media screen and (max-width: 768px) {
+    /* main */
+
+    .song.row{
+        flex-wrap: wrap;
+    }
+
+    .col{
+        width: calc(100% / 4 - 14px /4 * 3);
+    }
+}
+
+
+
+/*  */
