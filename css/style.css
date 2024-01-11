@@ -197,7 +197,7 @@ img{
 
 /* dispositivo M */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     /* main */
 
     .song.row{
@@ -211,4 +211,34 @@ img{
 
 
 
-/*  */
+/* responsive S */
+
+@media screen and (max-width: 768px) {
+    /* main */
+
+    .song.row{
+        flex-wrap: wrap;
+    }
+
+    .col{
+        width: calc(50% - 14px);
+    }
+}
+
+
+
+/* responsive XS */
+
+
+@media screen and (max-width: 425px) {
+    
+    /* aside */
+
+    aside{
+        width: auto;
+    }
+
+    .playlist ul{
+        display: none;
+    }
+}
