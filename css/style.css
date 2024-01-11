@@ -5,3 +5,67 @@
 }
 
 /* reset */
+
+
+.row{
+    display: flex;
+}
+
+
+
+body{
+    color:white;
+    /* test */
+}
+
+
+/* aside */
+
+aside{
+    width: 230px;
+    height: calc(100vh - 90px);  /* tutta l'altezza della viewport - l'altezza della play-bar*/
+
+    color:white;
+    background-color:black;
+}
+
+/* fine aside */
+
+
+
+/* main */
+
+main{
+    flex-grow:1;
+
+    overflow: auto;
+
+    background-color: #141922;
+}
+
+
+.top-bar-main{
+    padding-top: 20px;
+    padding-bottom: 28px;
+
+    text-align: end;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* fine main */
+
+
+/* play-bar */
+
+.play-bar{
+    position: fixed;
+
+
+    width: 100vw;
+    height: 90px;
+
+    background-color: #282828;
+}
+
+/* fine play-bar */
