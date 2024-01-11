@@ -83,6 +83,50 @@ main{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+
+.main-container{
+    padding: 22px;
+}
+
+main nav{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+main ul.row{
+    gap:24px;
+
+    list-style-type: none;
+}
+
+.result-inner .row{
+    flex-wrap: wrap;
+    gap:14px;
+}
+
+
+h2{
+
+    margin-bottom: 36px;
+}
+
+.col{
+    background-color: blue;
+    /* test */
+
+    text-align: center;
+}
+
+.img-box{
+    background-color: white;
+    /* test */
+
+    width: 200px;
+    height: 200px;
+}
+
 /* fine main */
 
 
