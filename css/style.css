@@ -16,16 +16,23 @@
 body{
     color:white;
     /* test */
-
+    
     font-family: sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color:white;
+}
 
 /* aside */
 
 aside{
     width: 230px;
     height: calc(100vh - 90px);  /* tutta l'altezza della viewport - l'altezza della play-bar*/
+
+    padding-left:18px;
+    padding-right:76px;
 
     color:white;
     background-color:black;
@@ -36,23 +43,47 @@ aside{
     justify-content: center;
     align-items: center;
 
-    background-color: blueviolet;
-    /* test */
 
     height: 84px;
 }
 
+#small-logo{
+    display: none;
+}
+
+aside ul{
+    list-style-type: none;
+}
+
+
+.icon{
+    width: 20px;
+    vertical-align: middle;
+}
+
+aside nav{
+    margin-bottom: 30px;
+}
+
+aside a{
+    opacity:0.5;
+    transition: 0.3s;
+}
+
+aside a:hover{
+    opacity: 1;
+}
+
 aside nav a{
-    background-color: darkgreen;
-    /* test */
     display: inline-block;
     padding: 7px 0;
 }
 
-.playlist li{
-    background-color: grey;
+
+.playlist li:first-of-type{
+    font-weight: bold;
+    margin-bottom: 14px;
 }
-/* test */
 
 .playlist li:nth-of-type(n + 2){
     margin-bottom: 26px;
@@ -75,9 +106,18 @@ main{
 
 
 .top-bar-main{
-    padding-top: 20px;
-    padding-bottom: 28px;
-    padding-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+
+    padding: 0 20px;;
+    
+    width: calc(100% - 230px);
+    height: 90px;
+
+    position: fixed;
+    top:0;
+    right:0;
 
     text-align: end;
 
@@ -87,7 +127,7 @@ main{
 
 .main-container{
 
-    padding: 22px;
+    padding: calc(22px + 90px);  /*padding del container + la grandezza della top-bar*/
 }
 
 main nav{
