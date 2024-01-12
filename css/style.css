@@ -147,11 +147,13 @@ main{
 main nav{
     display: flex;
     justify-content: center;
+ 
 
     margin-bottom: 40px;
 }
 
 main ul.row{
+    flex-wrap: wrap;
     gap:24px;
 
     list-style-type: none;
