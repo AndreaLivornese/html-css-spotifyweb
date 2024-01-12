@@ -96,7 +96,7 @@ aside nav a{
 /* main */
 
 main{
-    flex-grow:1;
+    width: calc(100% - 230px);
     height: calc(100vh - 90px);
 
     overflow: auto;
@@ -137,7 +137,7 @@ main{
 
 .main-container{
 
-    padding: calc(22px + 90px);  /*padding del container + la grandezza della top-bar*/
+    padding: calc(22px + 90px) 20px;  /*padding del container + la grandezza della top-bar*/
 }
 
 main nav{
