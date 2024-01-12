@@ -273,6 +273,7 @@ main img{
 
 
 .middle-side.row{
+    flex-grow: 1;
     flex-direction: column;
     align-items: center;
     gap: 16px;
@@ -288,17 +289,18 @@ main img{
 }
 
 .sub-progress.row{
+    width: 60%;
     align-items: center;
     gap: 26px;
 }
 
 .progress{
-    
+    width: 100%;
     position: relative;
 }
 
 .progress-bar{
-    width: 428px;
+    width: 100%;
 
     border: 2px white solid;
     border-radius: 2px;
@@ -404,6 +406,20 @@ main img{
 
     aside{
         width: auto;
+        padding-right: 18px;
+    }
+
+    #small-logo{
+        display: inline;
+        width: 20px;
+    }
+
+    .logo img:first-child{
+        display: none;
+    }
+
+    aside span{
+        display: none;
     }
 
     .playlist ul{
