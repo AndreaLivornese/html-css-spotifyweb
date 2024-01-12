@@ -25,6 +25,10 @@ a{
     color:white;
 }
 
+img{
+    width: 100%;
+}
+
 /* aside */
 
 aside{
@@ -153,6 +157,18 @@ main ul.row{
     list-style-type: none;
 }
 
+ul.row li{
+    opacity: .4;
+    transition: 0.3s;
+
+    text-transform: uppercase;
+}
+
+ul.row li:hover{
+    opacity: 1;
+}
+
+
 .song.row{
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */
@@ -168,15 +184,12 @@ h2{
 }
 
 .col{
-    background-color: blue;
-    width: calc(100% / 6 - 14px / 6 * 5);
-    /* test */
-    /* max-width: 200px; */
+    max-width: 200px;
     text-align: center;
 }
 
-img{
-    width: 100%;
+main img{
+    display: block;
 }
 
 .img-box{
