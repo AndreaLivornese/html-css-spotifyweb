@@ -332,6 +332,21 @@ main img{
     font-size: 30px;
 }
 
+.right-side.row{
+    align-items: center;
+    gap:16px;
+}
+
+.right-side .progress{
+    flex-grow:1;
+
+    position: relative;
+}
+
+.right-side .progress-bar{
+    width: 100%;
+}
+
 /* fine play-bar */
 
 
