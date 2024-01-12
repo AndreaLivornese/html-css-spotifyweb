@@ -271,6 +271,67 @@ main img{
     font-size: 0.8em;
 }
 
+
+.middle-side.row{
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.player.row{
+    align-items: center;
+    gap:30px;
+}
+
+.player-left.row, .player-right.row{
+    gap:20px;
+}
+
+.sub-progress.row{
+    align-items: center;
+    gap: 26px;
+}
+
+.progress{
+    
+    position: relative;
+}
+
+.progress-bar{
+    width: 428px;
+
+    border: 2px white solid;
+    border-radius: 2px;
+
+    opacity: .4;
+}
+
+.progress-bar-inner{
+    position: absolute;
+    top:50%;
+    z-index: 2;
+
+    transform: translate(0, -50%);
+
+
+    width: 20%;
+    border:2px white solid;
+    border-radius: 2px;
+
+    background-color: white;
+    
+    opacity: 1;
+}
+
+.time{
+    font-size: 0.8em;
+    font-weight:bold;
+}
+
+.fa-circle-play{
+    font-size: 30px;
+}
+
 /* fine play-bar */
 
 
