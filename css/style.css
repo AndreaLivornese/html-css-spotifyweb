@@ -195,6 +195,7 @@ h2{
 .sub-group{
     opacity: 0.4;
 }
+
 main img{
     display: block;
 }
@@ -222,6 +223,10 @@ main img{
 
 /* play-bar */
 
+.left-side.row{
+    gap: 12px;
+}
+
 .play-bar{
     position: fixed;
     bottom: 0;
@@ -240,21 +245,30 @@ main img{
 }
 
 .left-side, .right-side{
-    background-color: cornflowerblue;
-    /* test */
     width: 230px;
+
+    padding:0 10px;
 }
 
 .play-bar .img-song{
     width: 50px;
     height: 50px;
-
-    background-color: aqua;
-
 }
+
 
 .song-inf.row{
     flex-direction: column;
+    justify-content: center;
+}
+
+.song-inf .song-name{
+    font-size: 1em;
+
+    margin-bottom: 0;
+}
+
+.song-inf .artist-name{
+    font-size: 0.8em;
 }
 
 /* fine play-bar */
