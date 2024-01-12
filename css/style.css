@@ -124,6 +124,16 @@ main{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.btn{
+    border:1px solid white;
+    border-radius: 40px;;
+}
+
+.top-bar-main a{
+    display: inline-block;
+    padding: 15px 40px;
+}
+
 
 .main-container{
 
