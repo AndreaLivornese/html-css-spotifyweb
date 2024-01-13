@@ -100,7 +100,7 @@ aside nav a{
 /* main */
 
 main{
-    flex-grow: 1;
+    width: calc(100% - 230px);
     height: calc(100vh - 90px);
 
     overflow: auto;
@@ -116,7 +116,7 @@ main{
 
     padding: 0 20px;
     
-    width: calc(100% - 38px);
+    width: calc(100% - 230px);
     height: 90px;
 
     position: fixed;
@@ -427,6 +427,7 @@ main img{
         padding-right: 18px;
     }
 
+
     #small-logo{
         display: inline;
         width: 20px;
@@ -442,5 +443,14 @@ main img{
 
     .playlist ul{
         display: none;
+    }
+
+
+    main{
+        width: calc(100% - 38px);
+    }
+
+    .top-bar-main{
+        width: calc(100% - 38px);
     }
 }
