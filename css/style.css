@@ -38,6 +38,8 @@ aside{
     padding-left:18px;
     padding-right:76px;
 
+    overflow: hidden;
+
     color:white;
     background-color:black;
 }
