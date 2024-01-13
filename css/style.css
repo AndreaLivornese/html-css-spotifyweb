@@ -38,7 +38,7 @@ aside{
     padding-left:18px;
     padding-right:76px;
 
-    overflow: hidden;
+    overflow: auto;
 
     color:white;
     background-color:black;
