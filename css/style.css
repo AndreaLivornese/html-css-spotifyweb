@@ -32,6 +32,11 @@ img{
 /* aside */
 
 aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
     width: 230px;
     height: calc(100vh - 90px);  /* tutta l'altezza della viewport - l'altezza della play-bar*/
 
@@ -42,6 +47,12 @@ aside{
     color:white;
     background-color:black;
 }
+
+aside *{
+    color: white;
+    font-weight: bold;
+}
+
 
 .logo{
     height: 84px;
@@ -70,8 +81,27 @@ aside nav{
 }
 
 aside a{
+    font-size: 12px;
+    font-weight: inherit;
+
     opacity:0.5;
     transition: 0.3s;
+}
+
+
+aside .playlist li:nth-of-type(2){
+    font-size: 14px;
+    opacity: .5;
+}
+
+.fa-plus{
+    color:black;
+    font-size: 16px;
+}
+
+.playlist li:nth-of-type(2) button{
+    padding:9px 10px 11px;
+    border:none;
 }
 
 aside a:hover{
@@ -90,16 +120,18 @@ aside nav a{
 }
 
 .playlist li:nth-of-type(n + 2){
-    margin-bottom: 26px;
+    margin-bottom: 15px;
 }
 
 
 #download{
+    display: flex;
+    align-items: center;
     margin-bottom: 12px;
 }
 
 #download img{
-    width: 12px;
+    width: 14px;
 }
 
 hr{
