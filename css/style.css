@@ -339,6 +339,15 @@ main img:hover + .fa-circle-play{
     gap:10px;
 }
 
+.play-song-icon i{
+    opacity: 0.5;
+    transition: .3s;
+}
+
+.play-song-icon i:hover{
+    opacity: 1;
+}
+
 .play-bar.row{
     justify-content: space-between;
     align-items: center;
