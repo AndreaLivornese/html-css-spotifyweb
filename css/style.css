@@ -35,8 +35,7 @@ aside{
     width: 230px;
     height: calc(100vh - 90px);  /* tutta l'altezza della viewport - l'altezza della play-bar*/
 
-    padding-left:18px;
-    padding-right:76px;
+    padding:20px 18px 7px;
 
     overflow: auto;
 
@@ -45,12 +44,11 @@ aside{
 }
 
 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
     height: 84px;
+}
+
+#big-logo{
+    width: 150px;
 }
 
 #small-logo{
@@ -93,6 +91,30 @@ aside nav a{
 
 .playlist li:nth-of-type(n + 2){
     margin-bottom: 26px;
+}
+
+
+#download{
+    margin-bottom: 12px;
+}
+
+#download img{
+    width: 12px;
+}
+
+hr{
+    opacity: .5;
+    margin-bottom: 14px;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#user img{
+    width: 25px;
 }
 
 /* fine aside */
