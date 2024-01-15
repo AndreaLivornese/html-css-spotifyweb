@@ -432,12 +432,29 @@ main img:hover + .fa-circle-play{
 }
 
 
+.circle{
+    display: none;
+    position: absolute;
+    
+    right:0;
+    top:50%;
+    transform: translate(50%, -50%);
+    
+    width: 15px;
+    height: 15px;
+    
+    border-radius: 50%;
+    
+    background-color: white;
+}
+
+
 .progress-bar{
     width: 100%;
-
+    
     border: 2px white solid;
     border-radius: 2px;
-
+    
     opacity: .4;
 }
 
@@ -445,21 +462,26 @@ main img:hover + .fa-circle-play{
     position: absolute;
     top:50%;
     z-index: 2;
-
+    
     transform: translate(0, -50%);
-
-
+    
+    
     width: 20%;
     border:2px white solid;
     border-radius: 2px;
-
+    
     background-color: white;
     
     opacity: 1;
 }
 
+.progress:hover .progress-bar-inner{
+    border-color: #bef662;
+}
 
-
+.progress:hover .circle{
+    display: block;
+}
 
 .time{
     font-size: 0.8em;
