@@ -259,6 +259,7 @@ main img{
 }
 
 .img-box{
+    position:relative;
 
     width: 100%;
 
@@ -285,6 +286,26 @@ main img{
 
 .artist-name{
     opacity: .4;
+}
+
+main .fa-circle-play{
+    opacity: 0;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+
+    font-size: 30px;
+
+    transform: translate(-50%, -50%);
+}
+
+main img:hover{
+    filter: brightness(50%);
+}
+
+main img:hover + .fa-circle-play{
+    opacity: 1;
 }
 /* fine main */
 
@@ -381,6 +402,7 @@ main img{
     position: relative;
 }
 
+
 .progress-bar{
     width: 100%;
 
@@ -407,13 +429,20 @@ main img{
     opacity: 1;
 }
 
+
+
+
 .time{
     font-size: 0.8em;
     font-weight:bold;
 }
 
-.fa-circle-play{
+.player .fa-circle-play{
     font-size: 30px;
+}
+
+.player .fa-circle-play:hover{
+    transform: scale(110%);
 }
 
 .right-side.row{
